@@ -4,7 +4,7 @@ abstract class BaseModel{
     public static $db;
 	protected $host="localhost";
 	protected $username="root";
-	protected $password="admin123456";
+	protected $password="123456";
 	protected $db_name="revelsoft_charoenphan";
 
 	function __construct(){
