@@ -1,0 +1,21 @@
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="jquery-qrcode.min.js"></script>
+
+
+<div id='qrcode0'></div>
+
+<script>
+	$(document).ready(function(){
+		$('#qrcode0').qrcode({
+			render:'canvas',
+			size:120,
+			fill:'#000',
+			background:null,
+			mode: 0,
+			label:'S11-003',
+			fontname:'sans',
+			fontcolor:'#000',
+			text:"S11-003"
+		});
+	});
+</script>

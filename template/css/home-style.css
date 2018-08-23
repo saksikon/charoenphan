@@ -1,0 +1,439 @@
+/*----------------------------------------------------- Category ------------------------------------------------------*/
+
+.category-section{
+    background: rgba(239, 76, 36, 0.8);
+    background: -moz-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(239, 76, 36, 0.8)), color-stop(100%, rgba(243, 120, 61, 0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    background: -o-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    background: -ms-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    background: linear-gradient(to top, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+    padding-top:32px;
+    padding-bottom: 32px;
+}
+
+.card-category{
+    text-align: center;
+}
+
+.card-category a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.card-category a:hover{
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+
+
+
+
+/*----------------------------------------------------- About ------------------------------------------------------*/
+
+.about-section{ 
+    padding-top:48px;
+    padding-bottom: 48px;
+}
+
+.card-about{
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+.card-about .title{
+    text-align: center;
+    color: #f0574a;
+    font-size: 36pt;
+    font-weight: 600;
+}
+
+.card-about a {
+    text-decoration: none;
+    color: #ef4d25;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+.card-about a:hover{
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+
+
+
+
+/*----------------------------------------------------- Promotion ------------------------------------------------------*/
+
+.promotion-section{ 
+    padding-top:48px;
+    padding-bottom: 48px;
+}
+
+
+.promotion-section h1{ 
+    text-align: center;
+    color: #75b54a;
+    font-size: 42pt;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(#86c141, #59a05a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.card-promotion{
+
+    background: rgba(89, 160, 90, 0.8);
+    background: -moz-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(89, 160, 90, 0.8)), color-stop(100%, rgba(134,193,65,0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -o-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -ms-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: linear-gradient(to top, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 400;
+    padding:8px;
+    margin: 32px 4px;
+
+
+    position: relative;
+}
+
+.card-promotion img{
+    text-align: center;
+    width: 100%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.card-promotion .title{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -32px;
+    border: 1px solid rgb(203, 203, 203);
+    z-index: 999px;
+    position: relative;
+}
+
+.card-promotion .title .shop-name{
+    text-align: center;
+    color: #3f3f3f;
+    font-weight: 800;
+    font-size: 14pt;
+}
+
+.card-promotion .title .category-name{
+    text-align: center;
+    color: #ef4d25;
+    font-size: 10pt;
+    
+}
+
+.card-promotion .content{
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 200;
+    padding: 24px;
+    min-height: 150px;
+}
+
+.card-promotion a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card-promotion a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.btn-promotion{
+    text-decoration: none;
+    color: #FFF;
+    padding: 8px 64px;
+    background: #f3a236;
+    font-weight: 500;
+    font-size: 18pt;
+}
+
+.btn-promotion :hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+
+
+/*----------------------------------------------------- Register ------------------------------------------------------*/
+
+.register-section{ 
+
+    background: url('../../img_upload/setting/register.png') no-repeat;
+    background-size: 100%;
+
+    position: relative;
+    padding-top:48px;
+    padding-bottom: 48px;
+}
+
+
+
+
+
+.register-section h1{ 
+    text-align: center;
+    color:#262626;
+    font-size: 42pt;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(#262626, #262626);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.register-section .content{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: 600;
+    padding: 24px;
+    min-height: 320px;
+    color: #FFF;
+}
+
+.btn-register{
+    text-decoration: none;
+    color: rgba(239, 76, 36, 0.8);
+    padding: 8px 64px;
+    background: #FFF;
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+.btn-register :hover{
+    text-decoration: none;
+    color: rgba(239, 76, 36, 0.8);
+}
+
+/* ------------------------------------------------------------- Sponsor --------------------------------------------------------------- */
+
+
+.sponsor-section{ 
+
+    padding-top:48px;
+    padding-bottom: 48px;
+}
+
+
+.sponsor-section h1{ 
+    text-align: center;
+    color:#1d71f7;
+    font-size: 42pt;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(#1d71f7, #6197ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.card-sponsor{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+
+
+
+/*----------------------------------------------------- event ------------------------------------------------------*/
+
+.event-section{ 
+
+    background: rgba(89, 160, 90, 0.8);
+    background: -moz-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(89, 160, 90, 0.8)), color-stop(100%, rgba(134,193,65,0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -o-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -ms-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: linear-gradient(to top, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+
+
+    padding-top:48px;
+    padding-bottom: 48px;
+}
+
+
+.event-section h1{ 
+    text-align: center;
+    color: #FFF;
+    font-size: 42pt;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(#FFF, #FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.card-event{
+
+    
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 400;
+
+    margin: 32px 4px;
+
+    position: relative;
+}
+
+.card-event img{
+    text-align: center;
+    width: 100%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.card-event .title-date{
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    background: #FFF;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -32px;
+    border: 1px solid rgb(203, 203, 203);
+    z-index: 999px;
+    position: relative;
+    color: #262626;
+}
+
+
+.card-event .title{
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.card-event .content{
+    text-align: center;
+    font-size: 14pt;
+    font-weight:100;
+    padding: 24px;
+    min-height: 150px;
+    color: #FFF;
+}
+
+.card-event a {
+    text-decoration: none;
+    background: #FFF;
+    height: 32px;
+    padding: 4px 32px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    color: #75b54a;
+
+}
+
+.card-event a:hover{
+    text-decoration: none;
+    background: rgb(34, 31, 31);
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+    .card-about .title{
+        text-align: center;
+        color: #f0574a;
+        font-size: 24pt;
+        font-weight: 600;
+    }
+
+
+    .promotion-section h1{ 
+        font-size: 24pt;
+        font-weight: 600;
+    
+    }
+
+    .register-section{ 
+
+        background: url('../../img_upload/setting/register.png') no-repeat;
+        background-size: auto 100% ;
+        background-position: center center;
+        position: relative;
+        padding-top:48px;
+        padding-bottom: 48px;
+    }
+
+    .register-section h1{ 
+        font-size: 24pt;
+        font-weight: 600;
+    }
+
+    .sponsor-section h1{ 
+        font-size: 24pt;
+        font-weight: 600;
+    
+    }
+
+    .card-sponsor{
+        display: block;
+        vertical-align: top;
+        float: left;
+    }
+
+ 
+
+
+}

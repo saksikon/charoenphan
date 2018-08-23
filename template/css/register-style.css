@@ -1,0 +1,83 @@
+.input {
+    border: 0;
+    outline: 0;
+    display:inline-block;
+    border-radius: 0px; 
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+  }
+  
+  .input:focus{
+      outline: none;
+      border-color: #3d9fcc;
+      -webkit-box-shadow: none;
+      box-shadow:none;
+  
+  }
+  
+  .register-section h1{
+      padding:8px 0px;
+      font-size: 30pt;
+      font-weight: 600;
+  }
+  
+  .register-section .col-lg-12{
+      padding:18px 16px;
+  }
+  
+  .line-header{
+      background: rgba(239, 76, 36, 0.8);
+      background: -moz-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+      background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(239, 76, 36, 0.8)), color-stop(100%, rgba(243, 120, 61, 0.8)));
+      background: -webkit-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+      background: -o-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+      background: -ms-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+      background: linear-gradient(to top, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+      
+      margin-bottom: 0px;
+      border-radius: 0px; 
+      border: 0px solid transparent;
+  
+      padding-top:32px;
+      padding-bottom:32px;
+      min-height:120px;
+  
+      color:#FFF;
+      font-size: 30pt;
+      font-weight: 600;
+  }
+
+.line-add{
+    font-size: 30pt;
+    font-weight: 600;
+    text-align: center;
+    padding-top:32px;
+    padding-bottom:32px;
+}
+
+
+
+  @media screen and (max-width: 480px) {
+
+    .register-section h1{
+        padding:48px 0px;
+        font-size: 18pt;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .line-header{
+        font-size: 18pt;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .line-add{
+        font-size: 18pt;
+        font-weight: 600;
+        text-align: center;
+    }
+}

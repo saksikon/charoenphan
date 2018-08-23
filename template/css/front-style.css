@@ -1,0 +1,165 @@
+body{
+    font-family: 'Kanit', sans-serif !important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.menu-korat{
+    background: rgba(238,105,23,1);
+    background: -moz-linear-gradient(top, rgba(238,105,23,0.8) 0%, rgba(245,144,57,0.8) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(238,105,23,0.8)), color-stop(100%, rgba(245,144,57,0.8)));
+    background: -webkit-linear-gradient(top, rgba(238,105,23,0.8) 0%, rgba(245,144,57,0.8) 100%);
+    background: -o-linear-gradient(top, rgba(238,105,23,0.8) 0%, rgba(245,144,57,0.8) 100%);
+    background: -ms-linear-gradient(top, rgba(238,105,23,0.8) 0%, rgba(245,144,57,0.8) 100%);
+    background: linear-gradient(to bottom, rgba(238,105,23,0.8) 0%, rgba(245,144,57,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+    
+    margin-bottom: 0px;
+    border-radius: 0px; 
+    border: 0px solid transparent;
+
+}
+
+.menu-korat .navbar-brand {
+    padding-top:0px;
+}
+
+.menu-korat .navbar-nav>li>a {
+    color: #FFF;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.menu-korat .navbar-nav>.active>a, .menu-korat .navbar-nav>.active>a:focus, .menu-korat .navbar-nav>.active>a:hover {
+    color:rgba(238,105,23,1);
+    background-color: #FFF;
+}
+
+.menu-korat .navbar-toggle:focus, .menu-korat .navbar-toggle:hover {
+    background-color: #FFF;
+}
+
+.menu-korat .navbar-nav-center {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.menu-korat .navbar-collapse {
+    text-align: center;
+}
+
+.menu-korat .navbar-nav>li>.icon {
+    color: #FFF;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    display: inline-block;
+}
+
+.circle-icon {
+    color:rgba(238,105,23,1);
+    background: #FFF;
+    width:32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.menu-class {
+    display: block;
+    height: 32px;
+
+}
+
+footer{
+	background-color:#222222;
+    padding: 32px 32px;
+    color: #FFF;
+}
+
+footer a{
+    color: #FFF;
+    padding:0px 16px;
+}
+
+footer .menu li a{
+	color:#b1aca1;
+	padding:10px;
+	text-decoration:none;
+}
+
+footer .menu li a:hover{
+	color:#7dabdb;
+}
+
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+@media screen and (max-width: 480px) {
+    .menu-korat .navbar-brand img {
+        height: 48px;
+    }
+
+    .menu-korat .navbar-nav-center {
+        display: block;
+        vertical-align: top;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .menu-korat .navbar-brand img {
+        height: 48px;
+    }
+
+    .menu-korat .navbar-nav-center {
+        display: block;
+        vertical-align: top;
+    }
+  }

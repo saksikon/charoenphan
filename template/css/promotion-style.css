@@ -1,0 +1,190 @@
+.shop-card{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #b3a7a1;
+}
+
+.shop-card img{
+    -webkit-border-radius: 8px 8px 0px  0px;
+    -moz-border-radius: 8px 8px 0px  0px;
+    border-radius: 8px 8px 0px  0px;
+}
+
+
+.shop-card hr{
+    border-color: #d0c8c8;
+}
+
+.shop-card .title{
+    font-size: 16pt;
+    font-weight: 700;
+    text-align: center;
+    padding: 8px ;
+}
+
+table tr td {
+    padding:4px 16px 4px 4px;
+}
+/*----------------------------------------------------- Promotion ------------------------------------------------------*/
+
+.promotion-section{ 
+    padding-top:8px;
+    padding-bottom: 48px;
+}
+
+
+.promotion-section h1{ 
+    text-align: center;
+    color: #75b54a;
+    font-size: 42pt;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(#86c141, #59a05a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.header-promotion{
+
+    background: rgba(89, 160, 90, 0.8);
+    background: -moz-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(89, 160, 90, 0.8)), color-stop(100%, rgba(134,193,65,0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -o-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -ms-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: linear-gradient(to top, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+
+    padding:8px;
+    margin: 16px 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    position: relative;
+}
+
+
+.card-promotion{
+
+    background: rgba(89, 160, 90, 0.8);
+    background: -moz-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(89, 160, 90, 0.8)), color-stop(100%, rgba(134,193,65,0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -o-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -ms-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: linear-gradient(to top, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 400;
+    padding:8px;
+    margin: 24px 4px;
+
+
+    position: relative;
+}
+
+.card-promotion img{
+    text-align: center;
+    width: 100%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.card-promotion .title{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -32px;
+    border: 1px solid rgb(203, 203, 203);
+    z-index: 999px;
+    position: relative;
+}
+
+.card-promotion .title .shop-name{
+    text-align: center;
+    color: #3f3f3f;
+    font-weight: 800;
+    font-size: 14pt;
+}
+
+.card-promotion .title .category-name{
+    text-align: center;
+    color: #ef4d25;
+    font-size: 10pt;
+    
+}
+
+.card-promotion .content{
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 200;
+    padding: 24px;
+    min-height: 150px;
+}
+
+.card-promotion a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card-promotion a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.btn-promotion{
+    text-decoration: none;
+    color: #FFF;
+    padding: 8px 64px;
+    background: #f3a236;
+    font-weight: 500;
+    font-size: 18pt;
+}
+
+.btn-promotion :hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.my-promotion{
+    color: #3f3f3f;
+    font-weight: 800;
+    font-size: 20pt;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+    .promotion-section h1{ 
+        font-size: 24pt;
+        font-weight: 600;
+    
+    }
+
+}

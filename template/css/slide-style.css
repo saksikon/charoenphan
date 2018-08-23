@@ -1,0 +1,261 @@
+
+.slide{
+    background: url('../../img_upload/slide/background.png') no-repeat;
+    background-size: 100% ;
+    background-position: center center;
+    position: relative;
+    z-index: -1;
+    margin-top: -72px;
+    padding-top:48px;
+    padding-bottom: 48px;
+    min-height: 768px;
+    
+    
+}
+
+
+#object1{
+    position: absolute;
+    top:140;
+    left: 90;
+    animation-duration: 1s;
+    animation-name: slidein-left;
+}
+
+#object1 img{ 
+    max-width: 180px;
+}
+
+@keyframes slidein-left {
+    from {
+        top:140;
+        left: -640px;
+    }
+  
+    to {
+        top:140;
+        left: 90;
+    }
+  }
+
+/*--------------------------------------------------------------*/
+
+#object2{
+    position: absolute;
+    bottom:-72px;
+    right: -64px;
+    animation-duration: 3s;
+    animation-name: slidein-right;
+}
+
+#object2 img{ 
+    max-width: 768px;
+}
+
+@keyframes slidein-right {
+    from {
+        bottom:-72px;
+        right: -640;
+    }
+  
+    to {
+        bottom:-72px;
+        right: -64;
+    }
+  }
+
+/*--------------------------------------------*/
+#object3{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+#object3 img{ 
+    max-width: 420px;
+}
+  
+  @keyframes slidein {
+    from {
+        left: 20%;
+        top: -512;
+    }
+  
+    to {
+        left: 20%;
+        top: 40%;
+    }
+  }
+/*---------------------------------------------*/
+
+
+@media screen and (min-width: 1523px)  {
+    .slide{
+        background: url('../../img_upload/slide/background.png') no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        position: relative;
+        z-index: -1;
+        margin-top: -72px;
+        padding-top:48px;
+        padding-bottom: 48px;
+        min-height: 768px;
+        
+        
+    }
+}
+
+@media screen and (min-width: 1281px) and  (max-width: 1522px) {
+    .slide{
+        background: url('../../img_upload/slide/background.png') no-repeat;
+        background-size: auto 100%;
+        background-position: center right;
+        position: relative;
+        z-index: -1;
+        margin-top: -72px;
+        padding-top:48px;
+        padding-bottom: 48px;
+        min-height: 768px;
+        
+        
+    } 
+
+    
+}
+
+@media screen and (min-width: 1025px) and  (max-width: 1280px) {
+    .slide{
+        background: url('../../img_upload/slide/background.png') no-repeat;
+        background-size: auto 100%;
+        background-position: center right;
+        position: relative;
+        z-index: -1;
+        margin-top: -72px;
+        padding-top:48px;
+        padding-bottom: 48px;
+        min-height: 768px;
+        
+        
+    }
+    
+
+    #object1{
+        display: none;
+        position: unset;
+        width: 100%;
+    }
+	
+	#object3{
+		position: absolute;
+		left: 64px;
+		top: 40%;
+		animation-duration: 5s;
+		animation-name: slidein;
+	}
+
+	#object3 img{ 
+		max-width: 420px;
+	}
+	  
+  @keyframes slidein {
+	from {
+		left: 64px;
+		top: -512;
+	}
+  
+	to {
+		left: 64px;
+		top: 40%;
+	}
+  }
+
+}
+
+
+
+@media screen and (min-width: 481px) and  (max-width: 1024px)  {
+    .slide{
+        background: url('../../img_upload/slide/background.png') no-repeat;
+        background-size: auto 100% ;
+        background-position: center center;
+        position: relative;
+        z-index: -1;
+        margin-top: -72px;
+        padding-top:48px;
+        padding-bottom: 48px;
+        min-height: 768px;
+    }
+
+    #object1{
+        display: none;
+        position: unset;
+        width: 100%;
+    }
+
+    #object3{
+        display: none;
+        position: unset;
+        width: 100%;
+        
+    }
+
+    #object2{
+        right: 0px;
+    }
+
+    #object2 img {
+        max-width: 100%;
+        right: 0px;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .slide{
+        background: url('../../img_upload/slide/background.png') no-repeat;
+        background-size: auto 100% ;
+        background-position: center center;
+        position: relative;
+        z-index: -1;
+        margin-top: -72px;
+        padding-top:48px;
+        padding-bottom: 48px;
+        min-height: 640px;
+    }
+    #object1{
+        position: unset;
+        width: 100%;
+        display: none;
+        transition: 3s;
+    }
+    #object2{
+        position: unset;
+        width: 100%;
+        transition: 3s;
+        
+        right: 0px;
+    }
+
+    #object2 img {
+        max-width: 100%;
+    }
+
+    #object3{
+        position: unset;
+        width: 100%;
+    }
+
+    #object3 img {
+        max-width: 100%;
+    }
+
+    
+}
+
+

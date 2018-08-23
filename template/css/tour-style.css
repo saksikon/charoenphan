@@ -1,0 +1,122 @@
+.tour-section .header_1 {
+    text-align: center;
+    color: #75b54a;
+    font-size: 36pt;
+    font-weight: 600;
+    padding: 24px;
+
+    background: -webkit-linear-gradient(#86c141, #59a05a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tour-section .header_2 {
+    text-align: center;
+    font-size: 16pt;
+    color: #303030;
+    padding: 16px;
+}
+
+.tour-card-right , .tour-card-left{
+    margin: 8px 32px;
+}
+
+.tour-image{
+    padding: 0px;
+}
+
+.tour-card-right .tour-image{
+    text-align: right;
+}
+
+.tour-card-right .tour-content{
+    background: rgba(89, 160, 90, 0.8);
+    background: -moz-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(89, 160, 90, 0.8)), color-stop(100%, rgba(134,193,65,0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -o-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: -ms-linear-gradient(bottom, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    background: linear-gradient(to top, rgba(89, 160, 90, 0.8) 0%, rgba(134,193,65,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+}
+
+.tour-card-left .tour-content{
+    background: rgba(239, 76, 36, 0.8);
+    background: -moz-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    background: -webkit-gradient(left bottom, left top, color-stop(0%, rgba(239, 76, 36, 0.8)), color-stop(100%, rgba(243, 120, 61, 0.8)));
+    background: -webkit-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    background: -o-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    background: -ms-linear-gradient(bottom, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    background: linear-gradient(to top, rgba(239, 76, 36, 0.8) 0%, rgba(243, 120, 61, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6917', endColorstr='#f59039', GradientType=0 );
+}
+
+.tour-content{
+    
+}
+
+.tour-content .title{
+    font-size: 24pt;
+    color: #FFF;
+    padding: 16px; 
+}
+
+.tour-content .body{
+    font-size: 14pt;
+    color: #FFF;
+    padding: 16px; 
+}
+
+.tour-card-left .tour-content .title , .tour-card-left .tour-content .body{ 
+    text-align: right;
+}
+
+.tour-card-right .tour-content .title, .tour-card-right .tour-content .body{ 
+    text-align: left;
+}
+
+.tour-content .link{
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.tour-content .link a{
+    background: #FFF;
+    border-radius: 8px;
+    font-size: 14pt;
+    padding: 8px 24px;
+    color: #303030;
+}
+
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+@media screen and (max-width: 480px) {
+    .tour-section .header_1 {
+        font-size: 18pt;
+    }
+
+    .tour-section .header_2 {
+        font-size: 12pt;
+    }
+
+    .tour-card-left , .tour-card-right {
+        padding: 16px 0px;
+        margin: 16px 0px;
+
+    }
+
+    .tour-card-right .tour-content .title , .tour-card-left .tour-content .title { 
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    .tour-card-right .tour-content .body , .tour-card-left .tour-content .body{ 
+        font-size: 12pt;
+        text-align: center;
+    }
+
+}
